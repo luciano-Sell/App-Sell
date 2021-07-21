@@ -15,13 +15,7 @@ import 'package:http/http.dart' as http;
 void main() {
   runApp(MyApp());
 }
-/*
-Future fetch() async {
-        var url = 'http://localhost:8080/api/status';
-        // ignore: unused_local_variable
-        await http.get(url);
-      }
-*/
+
 
 class MyApp extends StatelessWidget {
   
@@ -44,16 +38,7 @@ class MyApp extends StatelessWidget {
     );
 
 
-   /*
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
-      
-      routes: {
-          AppRoutes.PLACE_LIST: (ctx) => PlaceListScreen(),
-        },
-    );
-    */
+   
   }
 }
 
@@ -117,11 +102,10 @@ class _MyHomePageState extends State<MyHomePage> {
           Navigator.of(context).pushNamed(AppRoutes.PLACE_LIST);
         },
              
-        label: Text('url'),
+        label: Text('Produtos'),
         icon: Icon(Icons.star_rate),
         
-        //label: Text(''),
-        //icon: Icon(Icons.star_rate),
+
         
       ),
     );

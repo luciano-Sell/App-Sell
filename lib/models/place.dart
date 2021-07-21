@@ -13,12 +13,7 @@ class PlaceLocation {
     @required this.longitude,
     this.address,
   });
-/*
-  LatLng toLatLng() {
-    return LatLng(this.latitude, this.longitude);
-  }
-}
-*/
+
 }
 class Place {
   final String id;
